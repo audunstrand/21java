@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/21java.iml" filepath="$PROJECT_DIR$/.idea/modules/21java.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/21java_main.iml" filepath="$PROJECT_DIR$/.idea/modules/21java_main.iml" group="21java" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/21java_test.iml" filepath="$PROJECT_DIR$/.idea/modules/21java_test.iml" group="21java" />
+    </modules>
+  </component>
+</project>
