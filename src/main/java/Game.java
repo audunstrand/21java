@@ -33,12 +33,12 @@ public class Game {
             return "dealer";
         }
 
-        sam = play(sam, deck);
+        sam = play(sam, deck, 17);
         if (sam > 21) {
             return "dealer";
         }
 
-        dealer = play(dealer, deck);
+        dealer = play(dealer, deck, sam);
         if (dealer > 21) {
             return "sam";
         }
@@ -51,8 +51,8 @@ public class Game {
         }
     }
 
-    private Integer play(Integer points, List<Integer> deck) {
-        while (points < 17) {
+    private Integer play(Integer points, List<Integer> deck, int limit) {
+        while (points < limit) {
             points += deck.remove(0);
             if (points > 21) {
                 break;
